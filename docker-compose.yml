@@ -2,7 +2,7 @@ version: '3'
 services:
   database:
    build: .
-   container_name: mysql-server
+   container_name: database
    ports:
     - "3306:3306"
     - project221
