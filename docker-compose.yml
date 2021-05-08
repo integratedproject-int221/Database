@@ -2,9 +2,9 @@ version: '3'
 services:
   database:
    build: .
-   container_name: database
+    container_name: database
    ports:
-    - "3306:3306"
-    - project221
-    networks:
+     - "3306:3306"
+     -  project221
+networks:
       project221:
