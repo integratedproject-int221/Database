@@ -1,3 +1,6 @@
+CREATE DATABASE ProjectINT221;
+
+use ProjectINT221;
 
 CREATE TABLE Brands (
     brandId    VARCHAR(10) NOT NULL,
