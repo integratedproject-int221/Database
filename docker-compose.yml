@@ -5,7 +5,7 @@ services:
    container_name: database
    ports:
      - "3306:3306"
-   networks:
-     -  project221
 networks:
-      project221:
+      default:
+        external:
+          name: project221
