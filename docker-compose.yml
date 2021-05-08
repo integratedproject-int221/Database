@@ -1,0 +1,10 @@
+version: '3'
+services:
+  database:
+   build: .
+   container_name: mysql-server
+   ports:
+    - "3306:3306"
+    - project221
+    networks:
+      project221:
