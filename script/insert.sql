@@ -1,3 +1,5 @@
+use ProjectINT221;
+
 insert into Colors values('beige','Beige','#FCF3CF');
 insert into Colors values('black','Black','#000000');
 insert into Colors values('blue','Blue','#AED6F1');
